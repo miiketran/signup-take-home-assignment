@@ -1,0 +1,35 @@
+.form {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+h2 {
+  margin: 0 auto 32px auto;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+button {
+  width: 100%;
+  line-height: 1.25rem;
+  border-radius: 5px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  grid-column: span 2 / span 2;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: none;
+  outline: 2px solid transparent;
+  background-color: #5e63e5;
+  color: white;
+}
+
+.error-text {
+  font-size: 0.875rem;
+  color: #b22222;
+  margin: 3px 0 0 0;
+}

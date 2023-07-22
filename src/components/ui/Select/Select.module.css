@@ -1,0 +1,36 @@
+label {
+  padding-bottom: 12px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+select {
+  width: 100%;
+  line-height: 1.25rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #666;
+  padding: 8px 16px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.selectWrapper {
+  position: relative;
+}
+
+.selectWrapper::after {
+  content: "\2304";
+  font-size: 16px;
+  top: 5px;
+  right: 10px;
+  color: #666;
+  position: absolute;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #b22222;
+  margin: 3px 0 0 0;
+}

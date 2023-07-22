@@ -1,0 +1,21 @@
+label {
+  padding-bottom: 12px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+input {
+  width: 100%;
+  line-height: 1.25rem;
+  border-radius: 5px;
+  border: 1px solid #666;
+  padding: 8px 16px;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #b22222;
+  margin: 3px 0 0 0;
+  grid-column: span 2 / span 2;
+}
